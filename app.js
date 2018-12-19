@@ -1,10 +1,10 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const path = require('path');
+import express from 'express';
+import bodyParser from 'body-parser';
+import path from 'path';
 
-const adminRoutes = require('./routes/admin');
-const shopRoutes = require('./routes/shop');
-const errorController = require('./controllers/error');
+import adminRoutes from './routes/admin';
+import shopRoutes from './routes/shop';
+import errorController from './controllers/error';
 
 const app = express();
 
